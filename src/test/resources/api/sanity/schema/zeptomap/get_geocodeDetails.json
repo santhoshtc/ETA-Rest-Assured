@@ -1,0 +1,888 @@
+{
+  "plus_code": {
+    "compound_code": "2R6P+453 Mumbai, Maharashtra, India",
+    "global_code": "7JFJ2R6P+453"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "SHREE SAI COMPLEX",
+          "short_name": "SHREE SAI COMPLEX",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "6",
+          "short_name": "6",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Senapati Bapat Marg",
+          "short_name": "Senapati Bapat Marg",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Ambedkar Nagar",
+          "short_name": "Ambedkar Nagar",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_3"
+          ]
+        },
+        {
+          "long_name": "दादर पश्चिम",
+          "short_name": "दादर पश्चिम",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "मुंबई",
+          "short_name": "मुंबई",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "मुंबई सिटी",
+          "short_name": "मुंबई सिटी",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "कोंकण डिव्हिजन",
+          "short_name": "कोंकण डिव्हिजन",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "महाराष्ट्र",
+          "short_name": "MH",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "India",
+          "short_name": "IN",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "400028",
+          "short_name": "400028",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "SHREE SAI COMPLEX, 6, Senapati Bapat Marg, Ambedkar Nagar, दादर पश्चिम, मुंबई, महाराष्ट्र 400028, India",
+      "geometry": {
+        "location": {
+          "lat": 19.01032,
+          "lng": 72.83539999999999
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 19.0116689802915,
+            "lng": 72.83674898029149
+          },
+          "southwest": {
+            "lat": 19.0089710197085,
+            "lng": 72.83405101970848
+          }
+        }
+      },
+      "place_id": "ChIJ92FzvunO5zsR3Mx6O4EWAxA",
+      "plus_code": {
+        "compound_code": "2R6P+45 Mumbai, Maharashtra, India",
+        "global_code": "7JFJ2R6P+45"
+      },
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "841",
+          "short_name": "841",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "Babasaheb Ambedkar Nagar",
+          "short_name": "Babasaheb Ambedkar Nagar",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "Mumbai",
+          "short_name": "Mumbai",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Mumbai City",
+          "short_name": "Mumbai City",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Konkan Division",
+          "short_name": "Konkan Division",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Maharashtra",
+          "short_name": "MH",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "India",
+          "short_name": "IN",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "400012",
+          "short_name": "400012",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "841, Babasaheb Ambedkar Nagar, Mumbai, Maharashtra 400012, India",
+      "geometry": {
+        "location": {
+          "lat": 19.0102374,
+          "lng": 72.83553069999999
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 19.0115863802915,
+            "lng": 72.8368796802915
+          },
+          "southwest": {
+            "lat": 19.00888841970849,
+            "lng": 72.83418171970848
+          }
+        }
+      },
+      "place_id": "ChIJk1Bju-nO5zsRBETjpogMtmU",
+      "plus_code": {
+        "compound_code": "2R6P+36 Mumbai, Maharashtra, India",
+        "global_code": "7JFJ2R6P+36"
+      },
+      "types": [
+        "establishment",
+        "point_of_interest"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Indiabulls Financial Center Tower-2",
+          "short_name": "Indiabulls Financial Center Tower-2",
+          "types": [
+            "premise"
+          ]
+        },
+        {
+          "long_name": "Senapati Bapat Marg",
+          "short_name": "Senapati Bapat Marg",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Babasaheb Ambedkar Nagar",
+          "short_name": "Babasaheb Ambedkar Nagar",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "Mumbai",
+          "short_name": "Mumbai",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Mumbai City",
+          "short_name": "Mumbai City",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Konkan Division",
+          "short_name": "Konkan Division",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Maharashtra",
+          "short_name": "MH",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "India",
+          "short_name": "IN",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "400012",
+          "short_name": "400012",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "Indiabulls Financial Center Tower-2, Senapati Bapat Marg, Babasaheb Ambedkar Nagar, Mumbai, Maharashtra 400012, India",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 19.0105235,
+            "lng": 72.83556709999999
+          },
+          "southwest": {
+            "lat": 19.0099224,
+            "lng": 72.8349376
+          }
+        },
+        "location": {
+          "lat": 19.0103689,
+          "lng": 72.8352082
+        },
+        "location_type": "ROOFTOP",
+        "viewport": {
+          "northeast": {
+            "lat": 19.0115719302915,
+            "lng": 72.8366013302915
+          },
+          "southwest": {
+            "lat": 19.0088739697085,
+            "lng": 72.8339033697085
+          }
+        }
+      },
+      "place_id": "ChIJs0vKl-nO5zsRxWwvRO_-Q20",
+      "types": [
+        "premise"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "2R6P+45",
+          "short_name": "2R6P+45",
+          "types": [
+            "plus_code"
+          ]
+        },
+        {
+          "long_name": "Mumbai",
+          "short_name": "Mumbai",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Mumbai City",
+          "short_name": "Mumbai City",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Maharashtra",
+          "short_name": "MH",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "India",
+          "short_name": "IN",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "2R6P+45 Mumbai, Maharashtra, India",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 19.010375,
+            "lng": 72.83550000000001
+          },
+          "southwest": {
+            "lat": 19.01025,
+            "lng": 72.835375
+          }
+        },
+        "location": {
+          "lat": 19.0102595,
+          "lng": 72.8354279
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 19.0116614802915,
+            "lng": 72.83678648029152
+          },
+          "southwest": {
+            "lat": 19.0089635197085,
+            "lng": 72.8340885197085
+          }
+        }
+      },
+      "place_id": "GhIJK_nYXaACM0ARnyqVpnc1UkA",
+      "plus_code": {
+        "compound_code": "2R6P+45 Mumbai, Maharashtra, India",
+        "global_code": "7JFJ2R6P+45"
+      },
+      "types": [
+        "plus_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Babasaheb Ambedkar Nagar",
+          "short_name": "Babasaheb Ambedkar Nagar",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_2"
+          ]
+        },
+        {
+          "long_name": "Dadar",
+          "short_name": "Dadar",
+          "types": [
+            "political",
+            "sublocality",
+            "sublocality_level_1"
+          ]
+        },
+        {
+          "long_name": "Mumbai",
+          "short_name": "Mumbai",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Mumbai City",
+          "short_name": "Mumbai City",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Konkan Division",
+          "short_name": "Konkan Division",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Maharashtra",
+          "short_name": "MH",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "India",
+          "short_name": "IN",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Babasaheb Ambedkar Nagar, Dadar, Mumbai, Maharashtra, India",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 19.0190534,
+            "lng": 72.840558
+          },
+          "southwest": {
+            "lat": 19.007784,
+            "lng": 72.83200599999999
+          }
+        },
+        "location": {
+          "lat": 19.010647,
+          "lng": 72.8353005
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 19.0190534,
+            "lng": 72.840558
+          },
+          "southwest": {
+            "lat": 19.007784,
+            "lng": 72.83200599999999
+          }
+        }
+      },
+      "place_id": "ChIJe00We8LO5zsRGpBeWC_SfSM",
+      "types": [
+        "political",
+        "sublocality",
+        "sublocality_level_2"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "400012",
+          "short_name": "400012",
+          "types": [
+            "postal_code"
+          ]
+        },
+        {
+          "long_name": "Mumbai",
+          "short_name": "Mumbai",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Mumbai City",
+          "short_name": "Mumbai City",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Konkan Division",
+          "short_name": "Konkan Division",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Maharashtra",
+          "short_name": "MH",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "India",
+          "short_name": "IN",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Mumbai, Maharashtra 400012, India",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 19.0127666,
+            "lng": 72.8522845
+          },
+          "southwest": {
+            "lat": 18.9865755,
+            "lng": 72.8306746
+          }
+        },
+        "location": {
+          "lat": 18.9995407,
+          "lng": 72.83970889999999
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 19.0127666,
+            "lng": 72.8522845
+          },
+          "southwest": {
+            "lat": 18.9865755,
+            "lng": 72.8306746
+          }
+        }
+      },
+      "place_id": "ChIJDyALI_rO5zsRVo84cYzgln8",
+      "types": [
+        "postal_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Mumbai City",
+          "short_name": "Mumbai City",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Mumbai",
+          "short_name": "Mumbai",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Konkan Division",
+          "short_name": "Konkan Division",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Maharashtra",
+          "short_name": "MH",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "India",
+          "short_name": "IN",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Mumbai City, Mumbai, Maharashtra, India",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 19.0530041,
+            "lng": 72.8814763
+          },
+          "southwest": {
+            "lat": 18.8934053,
+            "lng": 72.7924965
+          }
+        },
+        "location": {
+          "lat": 18.9745714,
+          "lng": 72.83189349999999
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 19.0530041,
+            "lng": 72.8814763
+          },
+          "southwest": {
+            "lat": 18.8934053,
+            "lng": 72.7924965
+          }
+        }
+      },
+      "place_id": "ChIJByoLeDvQ5zsRTiSNVFIfa6E",
+      "types": [
+        "administrative_area_level_3",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Mumbai",
+          "short_name": "Mumbai",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Mumbai City",
+          "short_name": "Mumbai City",
+          "types": [
+            "administrative_area_level_3",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Maharashtra",
+          "short_name": "MH",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "India",
+          "short_name": "IN",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Mumbai, Maharashtra, India",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 19.2716339,
+            "lng": 72.9864994
+          },
+          "southwest": {
+            "lat": 18.8928676,
+            "lng": 72.7758729
+          }
+        },
+        "location": {
+          "lat": 19.0759837,
+          "lng": 72.8776559
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 19.2716339,
+            "lng": 72.9864994
+          },
+          "southwest": {
+            "lat": 18.8928676,
+            "lng": 72.7758729
+          }
+        }
+      },
+      "place_id": "ChIJwe1EZjDG5zsRaYxkjY_tpF0",
+      "types": [
+        "locality",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Konkan Division",
+          "short_name": "Konkan Division",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Maharashtra",
+          "short_name": "MH",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "India",
+          "short_name": "IN",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Konkan Division, Maharashtra, India",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 20.2283237,
+            "lng": 74.20892479999999
+          },
+          "southwest": {
+            "lat": 15.6060851,
+            "lng": 72.64199049999999
+          }
+        },
+        "location": {
+          "lat": 19.3529794,
+          "lng": 73.2765361
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 20.2283237,
+            "lng": 74.20892479999999
+          },
+          "southwest": {
+            "lat": 15.6060851,
+            "lng": 72.64199049999999
+          }
+        }
+      },
+      "place_id": "ChIJU_QmRF_O5zsR3n2NAvZZEZY",
+      "types": [
+        "administrative_area_level_2",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "Maharashtra",
+          "short_name": "MH",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "India",
+          "short_name": "IN",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "Maharashtra, India",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 22.0302692,
+            "lng": 80.89768430000001
+          },
+          "southwest": {
+            "lat": 15.6060851,
+            "lng": 72.64199049999999
+          }
+        },
+        "location": {
+          "lat": 19.7514798,
+          "lng": 75.7138884
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 22.0302692,
+            "lng": 80.89768430000001
+          },
+          "southwest": {
+            "lat": 15.6060851,
+            "lng": 72.64199049999999
+          }
+        }
+      },
+      "place_id": "ChIJ-dacnB7EzzsRtk_gS5IiLxs",
+      "types": [
+        "administrative_area_level_1",
+        "political"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "India",
+          "short_name": "IN",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "India",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 35.6733149,
+            "lng": 97.39535869999999
+          },
+          "southwest": {
+            "lat": 6.4626999,
+            "lng": 68.1097
+          }
+        },
+        "location": {
+          "lat": 20.593684,
+          "lng": 78.96288
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 35.6733149,
+            "lng": 97.39535869999999
+          },
+          "southwest": {
+            "lat": 6.4626999,
+            "lng": 68.1097
+          }
+        }
+      },
+      "place_id": "ChIJkbeSa_BfYzARphNChaFPjNc",
+      "types": [
+        "country",
+        "political"
+      ]
+    }
+  ],
+  "status": "OK"
+}

@@ -1,0 +1,116 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "predictions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "description": {
+            "type": "string"
+          },
+          "matched_substrings": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "length": {
+                  "type": "number"
+                },
+                "offset": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "length",
+                "offset"
+              ]
+            }
+          },
+          "place_id": {
+            "type": "string"
+          },
+          "reference": {
+            "type": "string"
+          },
+          "structured_formatting": {
+            "type": "object",
+            "properties": {
+              "main_text": {
+                "type": "string"
+              },
+              "main_text_matched_substrings": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "length": {
+                      "type": "number"
+                    },
+                    "offset": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "length",
+                    "offset"
+                  ]
+                }
+              },
+              "secondary_text": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "main_text",
+              "main_text_matched_substrings",
+              "secondary_text"
+            ]
+          },
+          "terms": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "offset": {
+                  "type": "number"
+                },
+                "value": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "offset",
+                "value"
+              ]
+            }
+          },
+          "types": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "description",
+          "matched_substrings",
+          "place_id",
+          "reference",
+          "structured_formatting",
+          "terms",
+          "types"
+        ]
+      }
+    },
+    "status": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "predictions",
+    "status"
+  ]
+}

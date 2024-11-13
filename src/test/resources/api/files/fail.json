@@ -1,0 +1,64 @@
+{
+  "channel": "#lastmile-api-automation",
+  "username": "{testName} [{env}]",
+  "text": "*:bangbang: Execution Report - Attention Needed!*",
+  "icon_emoji": ":bangbang:",
+  "attachments": [
+    {
+      "fallback": "Detailed Report At: {jenkinsUrl}",
+      "color": "#FF0000",
+      "author_name": "Triggered By: {buildUser}",
+      "author_icon": "https://platform.slack-edge.com/img/default_application_icon.png",
+      "title": "Execution Overview",
+      "fields": [
+        {
+          "title": "FAILED",
+          "value": "*{failCases}* :x:",
+          "short": true
+        },
+        {
+          "title": "PASSED",
+          "value": "*{passCases}* :white_check_mark:",
+          "short": true
+        },
+        {
+          "title": "SKIPPED",
+          "value": "*{skipCases}* :o:",
+          "short": true
+        },
+        {
+          "title": "TOTAL",
+          "value": "*{totalCases}* :mag:",
+          "short": true
+        },
+        {
+          "title": "Pass Ratio",
+          "value": "*{passRatio}%* :chart_with_downwards_trend:",
+          "short": true
+        },
+        {
+          "title": "Duration",
+          "value": "{executionTime} :stopwatch:",
+          "short": true
+        }
+      ],
+      "actions": [
+        {
+          "type": "button",
+          "text": "View Jenkins Job",
+          "url": "{jenkinsUrl}",
+          "style": "danger"
+        },
+        {
+          "type": "button",
+          "text": "Report Portal",
+          "url": "{reportUrl}",
+          "style": "info"
+        }
+      ],
+      "footer": "Automation Test Report",
+      "footer_icon": "https://platform.slack-edge.com/img/default_application_icon.png",
+      "ts": 123456789
+    }
+  ]
+}

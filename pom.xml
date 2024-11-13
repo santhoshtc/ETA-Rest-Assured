@@ -1,55 +1,200 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-
-    <groupId>org.example</groupId>
     <artifactId>ETA-Rest-Assured</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <groupId>zepto</groupId>
+    <version>0.0.85</version>
+    <packaging>jar</packaging>
 
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <compilerArguments>
+                        <source>18</source>
+                        <target>18</target>
+                    </compilerArguments>
+                </configuration>
+                <groupId>org.apache.maven.plugins</groupId>
+                <version>${maven-compiler-plugin}</version>
+            </plugin>
+
+            <plugin>
+                <groupId>com.spotify.fmt</groupId>
+                <artifactId>fmt-maven-plugin</artifactId>
+                <version>2.21.1</version>
+                <executions>
+                    <execution>
+                        <id>format-on-build</id>
+                        <phase>process-sources</phase>
+                        <goals>
+                            <goal>format</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+        </plugins>
+    </build>
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
         <dependency>
-            <groupId>io.rest-assured</groupId>
-            <artifactId>rest-assured</artifactId>
-            <version>5.5.0</version>
-            <scope>test</scope>
+            <artifactId>automation-framework</artifactId>
+            <groupId>zepto</groupId>
+            <version>1.2.7</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+        <dependency>
+            <artifactId>automation-utility</artifactId>
+            <groupId>zepto</groupId>
+            <version>0.2.115</version>
+        </dependency>
+        <dependency>
+            <artifactId>opencsv</artifactId>
+            <groupId>com.opencsv</groupId>
+            <version>5.5.2</version>
+        </dependency>
+        <dependency>
+            <artifactId>javafaker</artifactId>
+            <groupId>com.github.javafaker</groupId>
+            <version>0.15</version>
+        </dependency>
+        <dependency>
+            <artifactId>itextpdf</artifactId>
+            <groupId>com.itextpdf</groupId>
+            <version>5.5.10</version>
+        </dependency>
+        <dependency>
+            <artifactId>pdfbox</artifactId>
+            <groupId>org.apache.pdfbox</groupId>
+            <version>2.0.4</version>
+        </dependency>
+        <dependency>
+            <groupId>com.auth0</groupId>
+            <artifactId>java-jwt</artifactId>
+            <version>4.2.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.awaitility</groupId>
+            <artifactId>awaitility</artifactId>
+            <version>4.2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.sskorol</groupId>
+            <artifactId>test-data-supplier</artifactId>
+            <version>2.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.kafka</groupId>
+            <artifactId>kafka-clients</artifactId>
+            <version>2.8.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/javax.ws.rs/javax.ws.rs-api -->
+        <dependency>
+            <groupId>javax.ws.rs</groupId>
+            <artifactId>javax.ws.rs-api</artifactId>
+            <version>2.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.jersey.core</groupId>
+            <artifactId>jersey-client</artifactId>
+            <version>2.34</version>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.jersey.core</groupId>
+            <artifactId>jersey-common</artifactId>
+            <version>2.34</version>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.jersey.inject</groupId>
+            <artifactId>jersey-hk2</artifactId>
+            <version>2.34</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.spotify.fmt</groupId>
+            <artifactId>fmt-maven-plugin</artifactId>
+            <version>2.21.1</version>
+        </dependency>
+
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>7.10.2</version>
-            <scope>test</scope>
+            <version>7.5</version>
+            <scope>compile</scope>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
         <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
-            <version>2.18.1</version>
+            <groupId>zepto</groupId>
+            <artifactId>ETA-Rest-Assured</artifactId>
+            <version>0.0.85</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
         <dependency>
-            <groupId>com.aventstack</groupId>
-            <artifactId>extentreports</artifactId>
-            <version>5.1.2</version>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-devtools-v85</artifactId>
+            <version>4.13.0</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.34</version>
-            <scope>provided</scope>
-        </dependency>
-
-
     </dependencies>
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>Zepto Artifactory-releases</name>
+            <url>https://qa-artifactory.zeptonow.dev/artifactory/zepto-groups</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>Zepto Artifactory-snapshots</name>
+            <url>https://qa-artifactory.zeptonow.dev/artifactory/zepto-groups</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <modelVersion>4.0.0</modelVersion>
+
+
+    <profiles>
+        <profile>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <artifactId>maven-compiler-plugin</artifactId>
+                        <configuration>
+                            <source>${maven.compiler.source}</source>
+                            <target>${maven.compiler.target}</target>
+                        </configuration>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <version>${maven-compiler-plugin}</version>
+                    </plugin>
+
+                    <plugin>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <configuration>
+                            <suiteXmlFiles>
+                                <suiteXmlFile>src/test/resources/suiteXMLs/${suiteFile}</suiteXmlFile>
+                            </suiteXmlFiles>
+                            <testFailureIgnore>true</testFailureIgnore>
+                        </configuration>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <version>${maven.surefire.plugin.version}</version>
+                    </plugin>
+                </plugins>
+                <testResources>
+                    <testResource>
+                        <directory>src/test/resources</directory>
+                    </testResource>
+                </testResources>
+            </build>
+            <id>sanity</id>
+        </profile>
+    </profiles>
 
     <properties>
-        <maven.compiler.source>18</maven.compiler.source>
+        <maven-compiler-plugin>3.7.0</maven-compiler-plugin>
+        <maven.surefire.plugin.version>2.22.0</maven.surefire.plugin.version>
+        <suiteFile>regression.xml</suiteFile>
         <maven.compiler.target>18</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>18</maven.compiler.source>
+        <maven-compiler-plugin>3.7.0</maven-compiler-plugin>
     </properties>
-
 </project>
