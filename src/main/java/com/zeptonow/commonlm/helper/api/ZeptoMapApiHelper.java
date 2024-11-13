@@ -27,7 +27,7 @@ public class ZeptoMapApiHelper {
    * @param placeName
    * @param isVerifySchema
    * @return
-   * @author Deepak_Kumar
+   * @author santhosh_tc
    */
   public Response getAutocompleteApi(
       RequestSpecBuilder requestSpecBuilder, String placeName, boolean isVerifySchema) {
@@ -49,7 +49,7 @@ public class ZeptoMapApiHelper {
    * @param placeId
    * @param isVerifySchema
    * @return
-   * @author Deepak_Kumar
+   * @author santhosh_tc
    */
   public Response getLocationDetailsApi(
       RequestSpecBuilder requestSpecBuilder, String placeId, boolean isVerifySchema) {
@@ -72,7 +72,7 @@ public class ZeptoMapApiHelper {
    * @param longitude
    * @param isVerifySchema
    * @return
-   * @author Deepak_Kumar
+   * @author santhosh_tc
    */
   public Response getGeocodeApi(
       RequestSpecBuilder requestSpecBuilder, Double lat, Double longitude, boolean isVerifySchema) {
