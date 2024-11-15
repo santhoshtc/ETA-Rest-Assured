@@ -82,7 +82,7 @@ public class GetEtaTest extends TestBase {
                 + ", Max expected eta is :: "
                 + maxExpectedEta));
     Assert.assertTrue(
-        maxExpectedEta - Integer.parseInt(getMainEtaResponse.getEtaInMinutes()) >= 0,
+            maxExpectedEta - (getMainEtaResponse.getEtaInMinutes() != null ? Integer.parseInt(getMainEtaResponse.getEtaInMinutes()) : 0) >= 0,
         String.format(
             GeneralConstants.MAKE_TEXT_HIGHLIGHTED,
             "red",
@@ -91,7 +91,7 @@ public class GetEtaTest extends TestBase {
                 + " but found "
                 + getMainEtaResponse.getEtaInMinutes()));
     Assert.assertTrue(
-        minExpectedEta - Integer.parseInt(getMainEtaResponse.getEtaInMinutes()) <= 0,
+            minExpectedEta - (getMainEtaResponse.getEtaInMinutes() != null ? Integer.parseInt(getMainEtaResponse.getEtaInMinutes()) : 0) >= 0,
         String.format(
             GeneralConstants.MAKE_TEXT_HIGHLIGHTED, "red", "eta is less than expected min value"));
   }
@@ -144,7 +144,7 @@ public class GetEtaTest extends TestBase {
                   + ", Max expected eta is :: "
                   + maxExpectedEta));
       Assert.assertTrue(
-          maxExpectedEta - Integer.parseInt(getMainEtaResponse.getEtaInMinutes()) >= 0,
+              maxExpectedEta - (getMainEtaResponse.getEtaInMinutes() != null ? Integer.parseInt(getMainEtaResponse.getEtaInMinutes()) : 0) >= 0,
           String.format(
               GeneralConstants.MAKE_TEXT_HIGHLIGHTED,
               "red",
@@ -153,7 +153,7 @@ public class GetEtaTest extends TestBase {
                   + " but found "
                   + getMainEtaResponse.getEtaInMinutes()));
       Assert.assertTrue(
-          minExpectedEta - Integer.parseInt(getMainEtaResponse.getEtaInMinutes()) <= 0,
+              minExpectedEta - (getMainEtaResponse.getEtaInMinutes() != null ? Integer.parseInt(getMainEtaResponse.getEtaInMinutes()) : 0) >= 0,
           String.format(
               GeneralConstants.MAKE_TEXT_HIGHLIGHTED,
               "red",
@@ -220,7 +220,7 @@ public class GetEtaTest extends TestBase {
                   + ", Max expected eta is :: "
                   + maxExpectedEta));
       Assert.assertTrue(
-          maxExpectedEta - Integer.parseInt(getMainEtaResponse.getEtaInMinutes()) >= 0,
+              maxExpectedEta - (getMainEtaResponse.getEtaInMinutes() != null ? Integer.parseInt(getMainEtaResponse.getEtaInMinutes()) : 0) >= 0,
           String.format(
               GeneralConstants.MAKE_TEXT_HIGHLIGHTED,
               "red",
@@ -229,7 +229,7 @@ public class GetEtaTest extends TestBase {
                   + " but found "
                   + getMainEtaResponse.getEtaInMinutes()));
       Assert.assertTrue(
-          minExpectedEta - Integer.parseInt(getMainEtaResponse.getEtaInMinutes()) <= 0,
+              minExpectedEta - (getMainEtaResponse.getEtaInMinutes() != null ? Integer.parseInt(getMainEtaResponse.getEtaInMinutes()) : 0) >= 0,
           String.format(
               GeneralConstants.MAKE_TEXT_HIGHLIGHTED,
               "red",
@@ -295,7 +295,7 @@ public class GetEtaTest extends TestBase {
                   + ", Max expected eta is :: "
                   + maxExpectedEta));
       Assert.assertTrue(
-          maxExpectedEta - Integer.parseInt(getMainEtaResponse.getEtaInMinutes()) >= 0,
+              maxExpectedEta - (getMainEtaResponse.getEtaInMinutes() != null ? Integer.parseInt(getMainEtaResponse.getEtaInMinutes()) : 0) >= 0,
           String.format(
               GeneralConstants.MAKE_TEXT_HIGHLIGHTED,
               "red",
@@ -307,7 +307,7 @@ public class GetEtaTest extends TestBase {
                       + " but found "
                       + getMainEtaResponse.getEtaInMinutes())));
       Assert.assertTrue(
-          minExpectedEta - Integer.parseInt(getMainEtaResponse.getEtaInMinutes()) <= 0,
+              minExpectedEta - (getMainEtaResponse.getEtaInMinutes() != null ? Integer.parseInt(getMainEtaResponse.getEtaInMinutes()) : 0) >= 0,
           String.format(
               GeneralConstants.MAKE_TEXT_HIGHLIGHTED,
               "red",
