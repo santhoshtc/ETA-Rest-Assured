@@ -1,0 +1,125 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "store_id": {
+      "type": "string"
+    },
+    "geofence": {
+      "type": "array",
+      "items": [
+        {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        }
+      ]
+    },
+    "type": {
+      "type": "string"
+    },
+    "start_date_time": {
+      "type": "string"
+    },
+    "end_date_time": {
+      "type": "string"
+    },
+    "is_active": {
+      "type": "boolean"
+    },
+    "created_by_id": {
+      "type": "string"
+    },
+    "create_reason": {
+      "type": "string"
+    },
+    "start_time": {
+      "type": "null"
+    },
+    "end_time": {
+      "type": "null"
+    },
+    "banner_primary_text": {
+      "type": "string"
+    },
+    "banner_secondary_text": {
+      "type": "string"
+    },
+    "banner_description_text": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "name",
+    "store_id",
+    "geofence",
+    "type",
+    "start_date_time",
+    "end_date_time",
+    "is_active",
+    "created_by_id",
+    "create_reason",
+    "start_time",
+    "end_time",
+    "banner_primary_text",
+    "banner_secondary_text",
+    "banner_description_text",
+    "id"
+  ]
+}
